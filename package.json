@@ -1,0 +1,19 @@
+{
+  "name": "jonathanlarroux_6_29042021",
+  "version": "1.0.0",
+  "description": "JonathanLarroux_6_29042021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rackhamledev/JonathanLarroux_6_29042021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rackhamledev/JonathanLarroux_6_29042021/issues"
+  },
+  "homepage": "https://github.com/rackhamledev/JonathanLarroux_6_29042021#readme"
+}
