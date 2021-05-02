@@ -1,19 +1,21 @@
 {
-  "name": "jonathanlarroux_6_29042021",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "JonathanLarroux_6_29042021",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rackhamledev/JonathanLarroux_6_29042021.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rackhamledev/JonathanLarroux_6_29042021/issues"
-  },
-  "homepage": "https://github.com/rackhamledev/JonathanLarroux_6_29042021#readme"
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.5",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2",
+    "node-sass": "^4.14.1"
+  }
 }
