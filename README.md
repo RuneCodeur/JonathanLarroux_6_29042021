@@ -1,3 +1,9 @@
+externUser
+enE00j4pcBGd0vCB
+
+principalUser
+sgrI0teLOC5QRP1i
+
 
 -- partie 6 de la formation développeur web de OpenClassrooms --
 
@@ -23,7 +29,13 @@ lancez l'invite de commande et exécutez les commandes suivante:
 
 cd "ADRESSE DU DOSSIER FRONT-END"
 npm install
-npm install node-sass@4.14.1
+npm install node-sass@4.14.1 
+
+--note --
+il est probable que 'npm install' signale des problèmes de vulnérabilité. 
+faire une tentative de résolution avec 'npm audit fix' peux causer des problèmes de compatibilité, 
+de même qu'installer une version différente de node-sass@4.14.1.
+
 
 telechargez et décompressez le dossier back-end dans un dossier en suivant le lien précédent.
 lancez l'invite de commande et exécutez les commandes suivante:
@@ -36,8 +48,7 @@ npm install --save mongoose-unique-validator
 npm install --save bcrypt
 npm install --save jsonwebtoken
 npm install --save multer
-
-
+npm install passport
 
 ------ lancer le serveur ------
 pour lancer la partie front-end, lancez un invite de commande et exécutez les commandes suivante:
