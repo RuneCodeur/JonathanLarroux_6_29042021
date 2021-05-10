@@ -1,10 +1,3 @@
-externUser
-enE00j4pcBGd0vCB
-
-principalUser
-sgrI0teLOC5QRP1i
-
-
 -- partie 6 de la formation développeur web de OpenClassrooms --
 
 -- PROJET SO PEKOCKO --
