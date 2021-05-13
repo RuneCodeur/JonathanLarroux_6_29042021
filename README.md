@@ -34,14 +34,8 @@ telechargez et décompressez le dossier back-end dans un dossier en suivant le l
 lancez l'invite de commande et exécutez les commandes suivante:
 
 cd "ADRESSE DU DOSSIER BACK-END"
-npm install -g @angular/cli
-npm install --save express
-npm install --save body-parser
-npm install --save mongoose-unique-validator
-npm install --save bcrypt
-npm install --save jsonwebtoken
-npm install --save multer
-npm install passport
+npm install
+
 
 ------ lancer le serveur ------
 pour lancer la partie front-end, lancez un invite de commande et exécutez les commandes suivante:

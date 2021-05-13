@@ -1,8 +1,8 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
-  let regex = new RegExp("^[A-Za-z-_ 0-9]+$");
-  let mailRegex = new RegExp("^[A-Za-z-_ 0-9.]+@([A-Za-z-_ 0-9-]+\.)+[A-Za-z]$");
+let regex = new RegExp("^[A-Za-z-_ 0-9]+$");
+let mailRegex = new RegExp("^[A-Za-z-_ 0-9.]+@([A-Za-z-_ 0-9-]+\.)+[A-Za-z]$");
 
 exports.signup = (req, res, next) => {
   if ((regex.test(req.body.password) == true) && (mailRegex.test(req.body.email) == true)){
@@ -40,7 +40,7 @@ exports.login = (req, res, next) => {
             token: jwt.sign(
               { userId: user._id},
               '487b05ac-0e11-4720-a02b-c36806ea094c',
-              { expiresIn: '15 minutes' }
+              { expiresIn: '2H' }
             )
           });
         })
