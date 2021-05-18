@@ -22,7 +22,6 @@ exports.signup = (req, res, next) => {
   }
 };
 
-
 exports.login = (req, res, next) => {
   if ((regex.test(req.body.password) == true) && (mailRegex.test(req.body.email) == true)){
     User.findOne({ email: req.body.email })
@@ -40,7 +39,7 @@ exports.login = (req, res, next) => {
             token: jwt.sign(
               { userId: user._id},
               '487b05ac-0e11-4720-a02b-c36806ea094c',
-              { expiresIn: '15 minutes' }
+              { expiresIn: '1H' }
             )
           });
         })
