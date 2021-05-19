@@ -39,7 +39,8 @@ exports.login = (req, res, next) => {
             token: jwt.sign(
               { userId: user._id},
               '487b05ac-0e11-4720-a02b-c36806ea094c',
-              { expiresIn: '1H' }
+              { expiresIn: '1H' },
+              {httpOnly: true} 
             )
           });
         })

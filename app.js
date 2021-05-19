@@ -3,6 +3,12 @@ const bodyParser = require('body-parser');
 const mongoose = require ('mongoose');
 const path = require('path');
 const helmet = require('helmet');
+const rateLimit = require("express-rate-limit");
+
+const limiter = rateLimit({
+  windowMs: 60 * 1000, 
+  max: 10
+});
 
 const sauceRoutes = require('./routes/sauce');
 const userRoutes = require('./routes/user');
@@ -24,6 +30,7 @@ app.use((req, res, next) => {
 
 app.use(bodyParser.json());
 app.use(helmet());
+app.use(limiter);
 
 app.use('/images', express.static(path.join(__dirname, 'images')));
 

@@ -14,10 +14,10 @@ const storage = multer.diskStorage({
             if((sauceObject.heat > 0) && (sauceObject.heat <= 10)){
         callback(null, 'images')
             }else{
-                callback ('caractère non autorisée.')
+                callback ('caractère non autorisée.');
             }
         }else{
-            callback ('caractère non autorisée.')
+            callback ('caractère non autorisée.');
         }
     },
     filename: (req, file, callback) => {
