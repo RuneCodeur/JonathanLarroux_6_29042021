@@ -4,7 +4,7 @@
 -- partie backend --
 
 
-
+ 
 les liens GitHub du projet peuvent être téléchargé sur les liens suivant =>
 
 partie front-end:
@@ -43,7 +43,10 @@ pour lancer la partie front-end, lancez un invite de commande et exécutez les c
 cd "ADRESSE DU DOSSIER FRONT-END"
 ng serve
 
-pour lancer la partie back-end, lancez un invite de commande et exécutez les commandes suivante:
+pour lancer la partie back-end, envoyez un message de demande d'accès à la base de donnée avec votre adresse IP, à l'adresse mail suivante :
+yreelfactory@gmail.com
+
+lancez un invite de commande et exécutez les commandes suivante:
 cd "ADRESSE DU DOSSIER FRONT-END"
 node server
 
